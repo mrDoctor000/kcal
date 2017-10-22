@@ -1,0 +1,27 @@
+<div class="container">
+  <h2>Таблица потребления</h2>
+
+  <div class="btn-group" role="group" aria-label="...">
+    <a href="#!/add_food"><button type="button" class="btn btn-default">Добавить</button></a>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Дата</th>
+        <th>Вес</th>
+        <th>Калорийность</th>
+        <th>Примечания</th>
+      </tr>
+    </thead>
+    <thead ng-repeat="food in foodTable">
+      <tr>
+        <th>{{food.data}}</th>
+        <th>{{food.mass}}</th>
+        <th>{{food.cal}}</th>
+        <th>{{food.other}}</th>
+      </tr>
+    </thead>
+
+  </table>
+</div>
