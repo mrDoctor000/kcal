@@ -1,0 +1,24 @@
+{
+  "name": "kcal",
+  "version": "1.0.0",
+  "description": "count calories",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrDoctor000/kcal.git"
+  },
+  "author": "Ponomarev E.A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrDoctor000/kcal/issues"
+  },
+  "homepage": "https://github.com/mrDoctor000/kcal#readme"
+}
